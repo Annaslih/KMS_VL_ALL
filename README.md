@@ -43,20 +43,7 @@ if you have valid/trusted external KMS host server.
  - change KMS_IP=172.16.0.2 to the IP/address of the server
  - save the script, and run it as administrator
 
-## Setup Preactivate:
 
- - To preactivate the system during installation, copy $oem$ folder to sources folder in the installation media (iso/usb).
-
- - If you already use another setupcomplete.cmd, rename this one to KMS_VL_ALL.cmd or similar name
-then add a command to run it in your setupcomplete.cmd, example:
-call KMS_VL_ALL.cmd
-
- - Use AutoRenewal-Setup.cmd if you want to uninstall the project afterwards.
-
->Notes:  
-The included setupcomplete.cmd support the Additional Options described previously, except Unattended Switches.
-Use AutoRenewal-Setup.cmd if you want to uninstall the project afterwards.
-In Windows 8 and later, running setupcomplete.cmd is disabled if the default installed key for the edition is OEM Channel.
 
 ## More help
 see ReadMe.html
