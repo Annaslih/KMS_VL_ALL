@@ -1,6 +1,6 @@
 @setlocal DisableDelayedExpansion
 @set uivr=v44
-@echo off
+@echo on
 :: change to 1 to enable debug mode
 set _Debug=0
 
